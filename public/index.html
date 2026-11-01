@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio | Mukhammad Roykhan Abidin</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">Roykhan<span>.dev</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Buka Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero" class="nav-link">Beranda</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+        <a href="#keahlian" class="nav-link">Keahlian</a>
+        <a href="#proyek" class="nav-link">Proyek</a>
+        <a href="#riwayat" class="nav-link">Riwayat</a>
+        <a href="#kontak" class="nav-link">Kontak</a>
+        <button id="themeToggle" class="theme-btn" aria-label="Ganti Tema">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="section hero-section reveal">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge-tag">Selamat Datang 👋</span>
+          <h1 id="heroName">Mukhammad Roykhan Abidin</h1>
+          <h2 id="heroRole" class="hero-role">Mahasiswa Teknik Informatika</h2>
+          <p id="heroSummary" class="hero-desc">Memuat data...</p>
+          <div class="hero-cta">
+            <a href="#proyek" class="btn btn-primary">Lihat Proyek</a>
+            <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="avatar-wrapper">
+            <img id="heroAvatar" src="img/avatar.svg" alt="Foto Profil" class="avatar-img">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tentang" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Tentang Saya</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div class="about-card">
+          <div id="aboutText" class="about-text">Memuat profil...</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="keahlian" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Keahlian & Tools</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div id="skillsGrid" class="skills-grid"></div>
+      </div>
+    </section>
+
+    <section id="proyek" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Proyek Pilihan</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div id="projectsGrid" class="projects-grid"></div>
+      </div>
+    </section>
+
+    <section id="riwayat" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Pendidikan & Pengalaman</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div class="timeline" id="timelineList"></div>
+      </div>
+    </section>
+
+    <section id="kontak" class="section reveal">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Hubungi Saya</h2>
+          <div class="title-bar"></div>
+        </div>
+        <div class="contact-layout">
+          <div class="contact-info">
+            <h3>Mari Terhubung</h3>
+            <p>Silakan hubungi saya melalui formulir ini atau akun media sosial resmi:</p>
+            <div class="social-links">
+              <a id="emailLink" href="mailto:dederoykhan@gmail.com" class="social-item" target="_blank" rel="noopener">
+                <span>📧</span> <span id="emailText">dederoykhan@gmail.com</span>
+              </a>
+              
+              <!-- Kode WhatsApp yang baru ditambahkan -->
+              <a id="whatsappLink" href="https://wa.me/629632990283" class="social-item" target="_blank" rel="noopener">
+                <span>📱</span> <span>WhatsApp</span>
+              </a>
+              <!-- Akhir kode WhatsApp -->
+
+              <a id="githubLink" href="https://github.com/Roykhan2601" class="social-item" target="_blank" rel="noopener">
+                <span>💻</span> <span>GitHub: Roykhan2601</span>
+              </a>
+              <a id="linkedinLink" href="#" class="social-item" target="_blank" rel="noopener">
+                <span>💼</span> <span>LinkedIn Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="nama">Nama Lengkap</label>
+              <input type="text" id="nama" name="nama" placeholder="Nama Anda" required>
+              <small class="error-msg" id="namaError"></small>
+            </div>
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+              <small class="error-msg" id="emailError"></small>
+            </div>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan minimal 10 karakter..." required></textarea>
+              <small class="error-msg" id="pesanError"></small>
+            </div>
+            <button type="submit" id="submitBtn" class="btn btn-primary btn-block">Kirim Pesan</button>
+            <div id="formAlert" class="alert-box" style="display: none;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> Mukhammad Roykhan Abidin. Seluruh hak cipta dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

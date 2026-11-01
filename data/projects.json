@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "judul": "Pemesanan Catering Online",
+    "deskripsi": "Webapp sistem pemesanan katering masakan nusantara dengan konsep toko daring interaktif, keranjang belanja lokal, dan dashboard admin.",
+    "teknologi": [
+      "React.js",
+      "Vite",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "JSON DB"
+    ],
+    "gambar": "/img/project-placeholder.svg",
+    "tautan": "https://github.com/Roykhan2601/Web-Pemesanan-Cathering-Online.git"
+  },
+  {
+    "id": 2,
+    "judul": "Sistem Manajemen Mahasiswa STTI Sony Sugema",
+    "deskripsi": "Aplikasi pengelolaan data mahasiswa untuk UTS Pemrograman Web Berbasis Framework dengan visual dan identitas kampus STTI Sony Sugema Karawang.",
+    "teknologi": [
+      "React.js",
+      "Vite",
+      "JavaScript",
+      "CSS",
+      "LocalStorage",
+      "Lucide Icons"
+    ],
+    "gambar": "/img/project-placeholder.svg",
+    "tautan": "https://github.com/Roykhan2601/Sistem-Manajemen-Mahasiswa-Stti-Sony-Sugema.git"
+  },
+  {
+  "id": 3,
+  "judul": "Sistem POS & Manajemen Stok Toko Kelontong",
+  "deskripsi": "Aplikasi kasir mobile-first dengan pelacakan stok real-time, sistem peringatan stok kritis (anti-stockout), rekapitulasi omzet harian instan, serta otentikasi keamanan PIN 6-digit berbasis peran (Admin/Kasir).",
+  "teknologi": [
+    "HTML5",
+    "Tailwind CSS",
+    "JavaScript (ES6+)",
+    "Local Storage API",
+    "Mobile-First Design"
+  ],
+  "gambar": "/img/project-placeholder.svg",
+  "tautan": "https://github.com/Roykhan2601/toko-kelontong-pos.git"
+}
+]

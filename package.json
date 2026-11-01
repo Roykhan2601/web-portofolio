@@ -1,0 +1,12 @@
+{
+  "name": "portofolio-roykhan",
+  "version": "1.0.0",
+  "description": "Portofolio Pribadi Mukhammad Roykhan Abidin",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

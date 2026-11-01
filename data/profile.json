@@ -1,0 +1,70 @@
+{
+  "nama": "Mukhammad Roykhan Abidin",
+  "jabatan": "Mahasiswa Teknik Informatika",
+  "kampus": "Sekolah Tinggi Teknologi Kedirgantaraan / STTI Sony Sugema Karawang",
+  "ringkasan": "Membangun solusi digital modern yang fungsional, responsif, dan didukung alur kerja AI cerdas.",
+  "foto": "/img/foto-roykhan.jpg",
+  "tentang": "Hi, saya Mukhammad Roykhan Abidin! 🚀\nSaya adalah mahasiswa Teknik Informatika di STTI Sony Sugema yang selalu bersemangat mengeksplorasi dunia kode dan desain. Saya percaya bahwa produk teknologi terbaik lahir dari perpaduan antara fungsionalitas sistem yang tangguh dan pengalaman pengguna (UX) yang ramah. Saat ini, saya fokus membangun proyek-proyek digital yang responsif dengan memanfaatkan alur kerja modern.\n\n💻 Tech Stack & Tools:\n- Development: GitHub, Vercel, Windsurf (AI IDE)\n- Productivity & AI: ChatGPT, HandTextAI\n- Design: Canva, Gamma\n\n🌟 Fokus & Minat:\nSelain menulis baris kode, saya sangat tertarik pada AI Development, Cloud Hosting, dan Desain Visual. Saya senang bereksperimen dengan berbagai tools AI untuk meningkatkan efisiensi kerja dan menciptakan karya yang inovatif.",
+  "keahlian": [
+    "HTML5",
+    "CSS3",
+    "JavaScript (ES6+)",
+    "Node.js",
+    "Express.js",
+    "React.js",
+    "Git & GitHub",
+    "Tailwind CSS",
+    "AI Development Tools",
+    "UI/UX Design"
+  ],
+  "riwayat": [
+    {
+      "tipe": "pendidikan",
+      "judul": "Sekolah Tinggi Teknik Informatika (STTI) Sony Sugema Karawang",
+      "periode": "2025 - Sekarang",
+      "deskripsi": "Mahasiswa aktif Program Studi Teknik Informatika. Fokus pada pengembangan aplikasi web, integrasi kecerdasan buatan (AI) dalam pemrograman, dan arsitektur data."
+    },
+    {
+      "tipe": "pendidikan",
+      "judul": "SMK Budi Mulya Karawang",
+      "periode": "2022 - 2025",
+      "deskripsi": "Siswa Sekolah Menengah Kejuruan, mendalami fondasi teknologi dan pemecahan masalah komputasi."
+    },
+    {
+      "tipe": "pendidikan",
+      "judul": "SMP AFBS",
+      "periode": "2019 - 2022",
+      "deskripsi": "Pendidikan menengah pertama."
+    },
+    {
+      "tipe": "pendidikan",
+      "judul": "SDN Jati 4",
+      "periode": "2013 - 2019",
+      "deskripsi": "Pendidikan dasar."
+    },
+    {
+      "tipe": "pengalaman",
+      "judul": "Web & AI Developer (Personal Projects)",
+      "periode": "2025 - Sekarang",
+      "deskripsi": "Membangun dan mengelola deployment aplikasi web secara internal maupun cloud (Vercel/GitHub). Aktif menggunakan AI-assisted tools seperti Windsurf dan ChatGPT untuk mengoptimalkan penulisan kode dan efisiensi pengembangan."
+    },
+    {
+      "tipe": "pengalaman",
+      "judul": "Desain Visual & Manajemen Konten",
+      "periode": "2024 - Sekarang",
+      "deskripsi": "Merancang antarmuka pengguna (UI), aset visual, dan presentasi digital menggunakan Canva dan Gamma untuk proyek akademik dan personal."
+    },
+    {
+      "tipe": "pengalaman",
+      "judul": "Praktik Kerja Lapangan (PKL)",
+      "periode": "2023 - 2024",
+      "deskripsi": "Pengalaman praktik kerja lapangan saat menempuh studi di SMK Budi Mulya Karawang."
+    }
+  ],
+  "kontak": {
+    "email": "dederoykhan@gmail.com",
+    "whatsapp": "https://wa.me/629632990283",
+    "github": "https://github.com/Roykhan2601",
+    "linkedin": "https://linkedin.com/in/"
+  }
+}
